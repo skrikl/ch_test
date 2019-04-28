@@ -2,61 +2,147 @@
 <html lang="ru">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/styles.css">
-  <title>skrikl || Тестовое задание</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>skrikl || Тестовое задание</title>
 </head>
-    
+
 <body>
-    <div class="pageWrapper">
-        <header class="head">
-            <h1 class="head__header">
-                Заголовок страницы
-            </h1>
-            <p class="head__text">
-                В отличие от пылевого и ионного хвостов, направление поступает в лимногляциональной часовой угол
+<div class="pageWrapper">
+    <header class="head">
+        <h1 class="head__header">
+            Заголовок страницы
+        </h1>
+        <p class="head__text">
+            В отличие от пылевого и ионного хвостов, направление поступает в лимногляциональной часовой угол
+        </p>
+    </header>
+
+    <main class="main">
+        <p class="">
+            Информация по оплате:
+        </p>
+        <p class="">
+            Номер счета:
+        </p>
+        <output class="pay__invoice-value pay__invoice-value_key_id">
+            87123658716587
+        </output>
+        <p class="">
+            Сумма платежа:
+        </p>
+        <output class="">
+            100 руб
+        </output>
+        <p class="pay__card-title">
+            Данные банковской карты
+        </p>
+        <!-- Card front -->
+        <div class="card">
+            <p class="card__text">
+                Номер карты
             </p>
-        </header>
-      
-        <main class="main">
-            <p class="">
-                Информация по оплате:
-            </p>
-            <p class="">
-                Номер счета:
-            </p>
-            <output class="pay__invoice-value pay__invoice-value_key_id">
-                87123658716587
-            </output>
-            <p class="">
-                Сумма платежа:
-            </p>
-            <output class="">
-                100 руб
-            </output>
-            <p class="pay__card-title">
-                Данные банковской карты
-            </p>
-            <div class="card">
-                <p class="card__text">
-                    Номер карты
-                </p>
-                <div class="card__number">
-                    <label><input class="card__numberElement1" maxlength = "4"></label>
-                    <label><input class="card__numberElement2" maxlength = "4"></label>
-                    <label><input class="card__numberElement3" maxlength = "4"></label>
-                    <label><input class="card__numberElement4" maxlength = "4"></label>
-                </div>
+            <div class="card__number">
+                <label><input class="card__numberElement1" maxlength = "4"></label>
+                <label><input class="card__numberElement2" maxlength = "4"></label>
+                <label><input class="card__numberElement3" maxlength = "4"></label>
+                <label><input class="card__numberElement4" maxlength = "4"></label>
             </div>
-        </main>
-        
-        <footer class="footer">
-          
-        </footer>
-    </div>
-    
-    <script src="./js/scripts.js"></script>
+        </div>
+        <div class="card__front">
+            <p class="card__text">
+                Срок действия
+            </p>
+            <div class="card__view">
+                <div class="card__wrapper1">
+                    <label>
+                        <select class="card__month">
+                            <option>01</option>
+                            <option>02</option>
+                            <option>03</option>
+                            <option selected="selected">04</option>
+                            <option>05</option>
+                            <option>06</option>
+                            <option>07</option>
+                            <option>08</option>
+                            <option>09</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="card__wrapper2">
+                    <label>
+                        <select class="card__year">
+                            <option >2016</option>
+                            <option >2017</option>
+                            <option selected="selected">2018</option>
+                            <option >2019</option>
+                            <option >2020</option>
+                            <option >2021</option>
+                            <option >2022</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="">
+                    <label>
+                        <input class="card__holder" type="text" placeholder="Держатель карты">
+                    </label>
+                </div>
+                <!-- /Card front -->
+                <!-- Card back -->
+                <div class="card__back">
+                    <div class="card__cvv">
+                        <span class="">
+                            Код CVV2/CVC2
+                        </span>
+                        <div class="">
+                            <label>
+                                <input class="" maxlength = "3">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Card back -->
+            </div>
+            <!-- /Card view -->
+        </div>
+        <button class="">
+            Оплатить
+        </button>
+    </main>
+
+    <footer class="footer">
+        <p class="content__footer-p">
+            Исходя из астатическй системы координат Булгакова, соединение стабильно. Краевая часть артезианского бассейна, которая в настоящее время находится ниже уровня моря, ослабляет систематический уход. Лисичка традиционно трансформирует прецессионный годовой параллакс.
+        </p>
+        <p class="content__footer-p">
+            Выклинивание абсолютно аккумулирует твердый радиотелескоп Максвелла.
+        </p>
+        <p class="content__footer-p">
+            Алмаз слагает горст. Делювий длительно колеблет лазерный подвижный объект.
+        </p>
+        <p class="content__footer-p">
+            Устойчивость, например, параллельна. Аргумент перигелия определяет боксит. Проекция вертикально дает уходящий диабаз. Если пренебречь малыми величинами, то видно, что угол крена покрывает вибрирующий волчок, что обусловлено не только первичными неровностями эрозионно-тектонического рельефа поверхности кристалических пород, но и проявлениями долее поздней блоковой техтоники. Засветка неба заставляет иначе взглянуть на то, что такое волчок.
+        </p>
+
+    </footer>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item "><a class="nav__link" href="">Первая ссылка</a></li>
+            <li class="nav__item nav__item_active"><a class="nav__link nav__link_active" href="">Вторая ссылка(активная)</a></li>
+            <li class="nav__item"><a class="nav__link" href="">Третья ссылка</a></li>
+            <li class="nav__item nav__item_dark"><a class="nav__link nav__link_dark" href="">Личный кабинет</a></li>
+            <li class="nav__item nav__item_dark"><a class="nav__link nav__link_dark" href="">Выйти</a></li>
+        </ul>
+        <div class="menu__icon"></div>
+    </nav>
+
+</div>
+
+<!--<script src="./js/scripts.js"></script>-->
 
 </body>
 
